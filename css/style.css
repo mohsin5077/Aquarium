@@ -1,0 +1,300 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#top{
+    background-color: #0a9396;
+   color: black;
+
+}
+.sec1{
+    background-image: url(../pic/download\ \(3\).jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: left;
+    
+
+}
+
+
+/* Body Style */
+body {
+    font-family: 'Arial', sans-serif;
+    
+    background-color: bisque;
+    color: #333;
+    
+}
+
+/* Header Section */
+header {
+   
+    color: #fff;
+    text-align: center;
+   
+    height: 500px;
+    
+    
+}
+
+header h1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 100px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header p {
+    font-size: 30px;
+    color:black;
+    padding-bottom: 150px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.first{ 
+    font-family: 'Poppins', sans-serif;
+    background-color: #F2F8FF;
+    color: #333;
+    background: url('https://www.transparenttextures.com/patterns/asfalt-dark.png'), linear-gradient(180deg, #5b9bd5, #4b8dd0);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #005f73;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    margin-left: 15px;
+}
+
+.nav-link:hover {
+    color: #0a9396 !important;
+}
+
+/* Main Content */
+main {
+    padding: 20px 0;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #005f73;
+}
+
+/* Gallery Section */
+#gall{
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    margin-top: 50px;
+
+}
+
+.card{
+    border: 2px solid rgb(46, 26, 160);
+    
+}
+.back{
+    background-image: url(/pic/colorful-fishes-are-living-under-the-sea-free-video.jpg);
+    width: 500px;
+    height: 400px;
+    margin: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #007BFF;
+}
+
+  .container {
+    margin-top: 40px;
+  
+  }
+
+  .event-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+
+  .event-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .event-card-body {
+    padding: 20px;
+  }
+
+  .event-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .event-description {
+    font-size: 1rem;
+    color: #666;
+  }
+
+  .register-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 15px 10px;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+    text-align: center;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+
+  .register-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .contact-form .form-control {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+  }
+
+  .contact-form .form-control:focus {
+    border-color: #007BFF;
+  }
+
+
+/* Footer Styles */
+footer {
+    background-color: #005f73;
+    color: #fff;
+    text-align: center;
+
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Forms */
+form {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form .form-label {
+    font-weight: bold;
+}
+
+form input,
+form textarea,
+form select,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #005f73;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0a9396;
+}
+
+/* Tables (Marine Life Info Page) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+table th {
+    background-color: #005f73;
+    color: white;
+    text-transform: uppercase;
+}
+
+table tr:nth-child(even) {
+    background-color: #f4f8fb;
+}
+
+table tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .nav-link {
+        margin-left: 5px;
+        font-size: 0.9rem;
+    }
+
+    table th, table td {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
+extra
+/* Custom Styles */
+.bg-image {
+    background-image: url('https://via.placeholder.com/1920x1080');
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    padding: 5rem 0;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
